@@ -13,3 +13,5 @@ class Person{
 
 let person = new Person("John", "Doe", "25")
 console.log(person.introduce())
+console.log(person.firstName)
+console.log(person["lastName"])
