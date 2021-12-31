@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .demo {
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+
+<p id="myp" style="color: blue; font-size: 50px"></p>
+<div class="demo">div1</div>
+<div class="demo">div2</div>
+<div id="div3">div3
+
+</div>
+<p id="divsLength"></p>
+
+<p id="pEvent" onclick="changeColor()" style="color: blue; font-size: 50px">Event test paragraph</p>
+<p onclick="changeColor2(this)" style="color: blue; font-size: 50px">Event test paragraph 2</p>
+
+<p onmouseover="toUpperCase(this)" onmouseout="toLowerCase(this)" style="color: blue; font-size: 50px">onMouseOver and onMouseOut</p>
+
+<p id="p6" style="color: blue; font-size: 50px">addEventListener</p>
+
+<script src="dom_manipulation.js"></script>
+<script src="js_events.js"></script>
+</body>
+</html>
+
+<!--    <p style="color: orange; font-size: 40px"></p>-->
